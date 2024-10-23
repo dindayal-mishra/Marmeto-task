@@ -1,22 +1,3 @@
-const mid = document.querySelector(".mid")
-const navArr = ["Home","Shop","About","Contact"]
-
-navArr.map((i)=>{
-    const navLists = document.createElement("li")
-    navLists.innerText = i
-    mid.append(navLists)
-})
-
-const icons = document.querySelector(".icons")
-const iconsArr = ["Product", "Price", "Quantity", "Subtotal"]
-
-iconsArr.map((i)=>{
-    const eachIcon = document.createElement("p")
-    eachIcon.innerText = i
-    icons.append(eachIcon)
-})
-
-
 const inp=document.querySelector("input")
 inp.value=1
 const subtotal=document.querySelector(".subtotal")
